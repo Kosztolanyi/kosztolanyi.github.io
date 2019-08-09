@@ -1,3 +1,14 @@
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
 * {
   font-size: 1rem;
   margin: 0;
@@ -32,17 +43,27 @@ h1 {
 
   
 }
+.left {
+  margin-left: 3%;
+}
 main {
   display: flex;
   /* flex-wrap: wrap; */
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-content: flex-start;
   position: relative;
   size: 16in 9in;
   width: 100%;
 }
+.opened {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 .right {
+  margin-right: 3%;
+
   -moz-transform: scale(-1, 1);
 -webkit-transform: scale(-1, 1);
 -o-transform: scale(-1, 1);
@@ -55,44 +76,22 @@ transform: scale(-1, 1);
   max-height: 600px;
   height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  border: 1px solid wheat;
+  position: relative;
 
 }
 .image .text {
   position: absolute;
   align-content: center;
   bottom: 0;
-  width: 400px;
+  width: 100%;
 }
-/* h2{
-  background-color: rgba(0, 0, 0, 0.65);
-  color: white;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  overflow: none;
-  opacity: 0.65;
-  margin-right: 10%;
-}
-p{
-  background-color: rgba(0, 0, 0, 0.65);
-  color: white;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  overflow: none;
-  opacity: 0.65;
-  margin-right: 10%;
-} */
 .text {
   background-color: rgba(0, 0, 0, 0.65);
   color: white;
   width: 400px;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
   overflow: none;
   opacity: 0.65;
 }
@@ -119,15 +118,16 @@ button {
   text-transform:uppercase;
   font-family:'Roboto',sans-serif;
   font-weight:400;
-  color:#FFFFFF;
   text-align:center;
   transition: all 0.15s;
-  }
-  button:hover{
+}
+button:hover{
   color:#DDDDDD;
+  color:#FFFFFF;
   border-color:#DDDDDD;
-  }
-  button:active{
+}
+button:active{
+  color:#FFFFFF;
   color:#BBBBBB;
   border-color:#BBBBBB;
   }
