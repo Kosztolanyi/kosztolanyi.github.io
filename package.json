@@ -1,0 +1,29 @@
+{
+  "name": "thegalleryproject",
+  "version": "1.0.0",
+  "description": "A gallery of images made in GreenFoxAcademy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Kosztolanyi"
+  },
+  "keywords": [
+    "image",
+    "gallery",
+    "greenfox",
+    "greenfoxacademy"
+  ],
+  "author": "Zsolt Kosztolanyi Baji",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1"
+  }
+}

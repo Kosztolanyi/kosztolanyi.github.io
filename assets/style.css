@@ -1,0 +1,90 @@
+* {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+  font-weight: 900;
+  color: salmon;
+  text-decoration: underline;
+  text-decoration-color: salmon;
+
+  
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  size: 16in 9in;
+}
+.right {
+  -moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+}
+.opened {
+  display: flex;
+  max-width: auto;
+  flex-wrap: wrap;
+
+}
+button {
+  height: 100%;
+  width: 3rem;
+}
+button:hover {
+  cursor: pointer;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.text {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  overflow: none;
+  opacity: 0.65;
+  width: 600px;
+}
+.opened img {
+  max-height: 400px;
+  width: 600px;
+}
+.thumbnails img {
+  margin: 15px 3px;
+  border: 4px groove wheat;
+  height: 50px;
+}
+img.active {
+  transform: translate(0, -10px);
+}
+img.thumbnails:hover {
+  cursor: pointer;
+}

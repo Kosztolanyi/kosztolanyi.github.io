@@ -1,0 +1,8 @@
+server things
+    send numberOfImage,images,
+
+
+After that
+
+
+    
