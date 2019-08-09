@@ -2,49 +2,49 @@
 
 const images = [
   {
-    src: "./images/1.jpg",
+    src: "./assets/images/1.jpg",
     title: "Das ist ein lakókocsi und Szabolcs",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/2.jpg",
+    src: "./assets/images/2.jpg",
     title: "Lizababa",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/3.jpg",
+    src: "./assets/images/3.jpg",
     title: "Csapat",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/4.jpg",
+    src: "./assets/images/4.jpg",
     title: "Das táj1",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/5.jpg",
+    src: "./assets/images/5.jpg",
     title: "Das szikla",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/6.jpg",
+    src: "./assets/images/6.jpg",
     title: "Das taj2",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/7.jpg",
+    src: "./assets/images/7.jpg",
     title: "Das völgy",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    src: "./images/8.jpg",
+    src: "./assets/images/8.jpg",
     title: "Grünesee",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
