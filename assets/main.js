@@ -126,7 +126,7 @@ let mainImageText = document.querySelector(".opened p");
 mainImageTitle.textContent = images[0].title;
 mainImageText.textContent = images[0].text;
 let mainImage = document.querySelector(".image");
-let imageSelector = document.createElement("img");
+let imageSelector = document.querySelector(".image img");
 imageSelector.setAttribute("src", images[currentImageIndex].src);
 imageSelector.setAttribute("alt", images[currentImageIndex].title);
 mainImage.appendChild(imageSelector);
